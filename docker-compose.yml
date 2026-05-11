@@ -1,0 +1,17 @@
+version: '3.9'
+
+services:
+  docmind:
+    build: .
+    container_name: docmind-app
+    ports:
+      - "8000:8000"
+      - "3000:3000"
+    env_file:
+      - ./backend/.env
+    volumes:
+      - docmind_storage:/app/backend/storage
+    restart: unless-stopped
+
+volumes:
+  docmind_storage:
