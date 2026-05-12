@@ -137,36 +137,6 @@ GOOGLE_API_KEY=your_api_key_here
 
 ---
 
-## 4️⃣ Run Backend
-
-```bash
-uvicorn app.main:app --reload
-```
-
-Backend runs on:
-
-```bash
-http://127.0.0.1:8000
-```
-
----
-
-## 5️⃣ Frontend Setup
-
-```bash
-cd frontend
-npm install
-npm run dev
-```
-
-Frontend runs on:
-
-```bash
-http://localhost:5173
-```
-
----
-
 # 🐳 Docker Deployment
 
 ## Build & Run
@@ -211,17 +181,6 @@ POST /ask
 6. User asks questions
 7. Relevant chunks are retrieved
 8. Gemini AI generates final response
-
----
-
-# 📸 Screenshots
-
-> Add your screenshots here
-
-```md
-![Home](screenshots/home.png)
-![Chat](screenshots/chat.png)
-```
 
 ---
 
@@ -273,4 +232,31 @@ Developed with ❤️ by **Meeran Pathan**
 
 This project is licensed under the MIT License.
 
+---
 
+# 🏷️ Tags
+
+```txt
+AI
+Artificial Intelligence
+RAG
+LangChain
+FastAPI
+React
+Vite
+Docker
+Gemini AI
+Machine Learning
+Document Chatbot
+PDF Chatbot
+OCR
+FAISS
+Vector Database
+Semantic Search
+Python
+Full Stack AI
+LLM
+Generative AI
+Tesseract OCR
+Open Source
+```
